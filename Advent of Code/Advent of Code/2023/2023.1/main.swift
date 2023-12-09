@@ -14,7 +14,7 @@ func main() throws {
         let nums = String(line).filter(\.isNumber)
         guard let f = nums.first, let l = nums.last else { return 0 }
         return Int("\(f)\(l)")!
-    }.reduce(0, +)
+    }.sum
     
     print("Part1: \(result1)")
     
@@ -38,7 +38,7 @@ func main() throws {
         }
 
         return Int("\(sortedDistances.first!.1)\(sortedDistances.last!.1)")!
-    }.reduce(0, +)
+    }.sum
     
     print("Part2: \(result2)")
 }

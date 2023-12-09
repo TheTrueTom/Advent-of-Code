@@ -48,11 +48,11 @@ func main() throws {
         powers.append(minNeededValues["red"]! * minNeededValues["green"]! * minNeededValues["blue"]!)
     }
     
-    let result1 = gameIDsum - impossibleGameIDs.reduce(0, +)
+    let result1 = gameIDsum - impossibleGameIDs.sum
     
     print("Part1: \(result1)")
     
-    let result2 = powers.reduce(0, +)
+    let result2 = powers.sum
     
     print("Part2: \(result2)")
 }

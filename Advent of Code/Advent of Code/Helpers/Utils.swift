@@ -68,3 +68,7 @@ extension String {
         return self[character]
     }
 }
+
+extension Sequence where Element: Numeric {
+    public var sum: Element { reduce(0, +) }
+}

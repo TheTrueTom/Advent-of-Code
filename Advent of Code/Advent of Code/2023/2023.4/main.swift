@@ -41,7 +41,7 @@ func main() throws {
         }
     }
     
-    let result2 = copies.reduce(0, +)
+    let result2 = copies.sum
     print("Part2: \(result2)")
 }
 
