@@ -36,6 +36,13 @@
 		E21567D02B2707B600860953 /* AdjacentPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21567A32B24970D00860953 /* AdjacentPairs.swift */; };
 		E21567D12B2707BF00860953 /* test_input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = E21567CB2B2707A400860953 /* test_input.txt */; };
 		E21567D22B2707BF00860953 /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = E21567CC2B2707A400860953 /* input.txt */; };
+		E2399D6D2B289DF10060C41C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2399D6C2B289DF10060C41C /* main.swift */; };
+		E2399D732B289E910060C41C /* test_input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2399D722B289DFB0060C41C /* test_input.txt */; };
+		E2399D742B289E910060C41C /* input.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2399D712B289DFB0060C41C /* input.txt */; };
+		E2399D752B289E980060C41C /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E6E392B06569100FB6402 /* Input.swift */; };
+		E2399D762B289E980060C41C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E279D53A2B1C6DDE00313570 /* Utils.swift */; };
+		E2399D772B289E980060C41C /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E6E3B2B0656B500FB6402 /* Timer.swift */; };
+		E2399D782B289E980060C41C /* AdjacentPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21567A32B24970D00860953 /* AdjacentPairs.swift */; };
 		E23F24472B21C23D004F1060 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23F24462B21C23D004F1060 /* main.swift */; };
 		E23F244B2B21C2ED004F1060 /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E6E392B06569100FB6402 /* Input.swift */; };
 		E23F244C2B21C2ED004F1060 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E279D53A2B1C6DDE00313570 /* Utils.swift */; };
@@ -115,6 +122,17 @@
 			files = (
 				E21567D12B2707BF00860953 /* test_input.txt in CopyFiles */,
 				E21567D22B2707BF00860953 /* input.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2399D682B289DF10060C41C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				E2399D732B289E910060C41C /* test_input.txt in CopyFiles */,
+				E2399D742B289E910060C41C /* input.txt in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +240,10 @@
 		E21567C62B27079C00860953 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E21567CB2B2707A400860953 /* test_input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test_input.txt; sourceTree = "<group>"; };
 		E21567CC2B2707A400860953 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		E2399D6A2B289DF10060C41C /* 2023.12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2023.12; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2399D6C2B289DF10060C41C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E2399D712B289DFB0060C41C /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = input.txt; sourceTree = "<group>"; };
+		E2399D722B289DFB0060C41C /* test_input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test_input.txt; sourceTree = "<group>"; };
 		E23F24442B21C23D004F1060 /* 2023.7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2023.7; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23F24462B21C23D004F1060 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E23F244E2B21C2FC004F1060 /* test_input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test_input.txt; sourceTree = "<group>"; };
@@ -275,6 +297,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E21567C12B27079C00860953 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2399D672B289DF10060C41C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,6 +399,16 @@
 			path = 2023.11;
 			sourceTree = "<group>";
 		};
+		E2399D6B2B289DF10060C41C /* 2023.12 */ = {
+			isa = PBXGroup;
+			children = (
+				E2399D722B289DFB0060C41C /* test_input.txt */,
+				E2399D712B289DFB0060C41C /* input.txt */,
+				E2399D6C2B289DF10060C41C /* main.swift */,
+			);
+			path = 2023.12;
+			sourceTree = "<group>";
+		};
 		E23F24452B21C23D004F1060 /* 2023.7 */ = {
 			isa = PBXGroup;
 			children = (
@@ -422,6 +461,7 @@
 				E21567952B244C8400860953 /* 2023.9 */,
 				E21567B12B25B28400860953 /* 2023.10 */,
 				E21567C42B27079C00860953 /* 2023.11 */,
+				E2399D6A2B289DF10060C41C /* 2023.12 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -449,6 +489,7 @@
 		E28E6E3D2B0656D500FB6402 /* 2023 */ = {
 			isa = PBXGroup;
 			children = (
+				E2399D6B2B289DF10060C41C /* 2023.12 */,
 				E21567C52B27079C00860953 /* 2023.11 */,
 				E21567B22B25B28400860953 /* 2023.10 */,
 				E21567962B244C8400860953 /* 2023.9 */,
@@ -566,6 +607,23 @@
 			name = 2023.11;
 			productName = 2023.11;
 			productReference = E21567C42B27079C00860953 /* 2023.11 */;
+			productType = "com.apple.product-type.tool";
+		};
+		E2399D692B289DF10060C41C /* 2023.12 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2399D702B289DF10060C41C /* Build configuration list for PBXNativeTarget "2023.12" */;
+			buildPhases = (
+				E2399D662B289DF10060C41C /* Sources */,
+				E2399D672B289DF10060C41C /* Frameworks */,
+				E2399D682B289DF10060C41C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 2023.12;
+			productName = 2023.12;
+			productReference = E2399D6A2B289DF10060C41C /* 2023.12 */;
 			productType = "com.apple.product-type.tool";
 		};
 		E23F24432B21C23D004F1060 /* 2023.7 */ = {
@@ -712,7 +770,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					E21567942B244C8400860953 = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -721,6 +779,9 @@
 						CreatedOnToolsVersion = 15.0.1;
 					};
 					E21567C32B27079C00860953 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					E2399D692B289DF10060C41C = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 					E23F24432B21C23D004F1060 = {
@@ -773,6 +834,7 @@
 				E21567942B244C8400860953 /* 2023.9 */,
 				E21567B02B25B28400860953 /* 2023.10 */,
 				E21567C32B27079C00860953 /* 2023.11 */,
+				E2399D692B289DF10060C41C /* 2023.12 */,
 			);
 		};
 /* End PBXProject section */
@@ -811,6 +873,18 @@
 				E21567CF2B2707B600860953 /* Timer.swift in Sources */,
 				E21567D02B2707B600860953 /* AdjacentPairs.swift in Sources */,
 				E21567C72B27079C00860953 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2399D662B289DF10060C41C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2399D752B289E980060C41C /* Input.swift in Sources */,
+				E2399D762B289E980060C41C /* Utils.swift in Sources */,
+				E2399D772B289E980060C41C /* Timer.swift in Sources */,
+				E2399D782B289E980060C41C /* AdjacentPairs.swift in Sources */,
+				E2399D6D2B289DF10060C41C /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -916,6 +990,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -928,6 +1003,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -940,6 +1016,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -951,6 +1028,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -963,6 +1041,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -975,6 +1054,32 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 2X7V934S42;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E2399D6E2B289DF10060C41C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 2X7V934S42;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E2399D6F2B289DF10060C41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -987,6 +1092,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -999,6 +1105,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1011,6 +1118,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1023,6 +1131,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1035,6 +1144,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1047,6 +1157,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1088,6 +1199,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -1151,6 +1263,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1177,6 +1290,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1189,6 +1303,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1201,6 +1316,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1213,6 +1329,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1225,6 +1342,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1237,6 +1355,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1249,6 +1368,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1261,6 +1381,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1273,6 +1394,7 @@
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1284,6 +1406,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2X7V934S42;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1317,6 +1440,15 @@
 			buildConfigurations = (
 				E21567C92B27079C00860953 /* Debug */,
 				E21567CA2B27079C00860953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2399D702B289DF10060C41C /* Build configuration list for PBXNativeTarget "2023.12" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2399D6E2B289DF10060C41C /* Debug */,
+				E2399D6F2B289DF10060C41C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
