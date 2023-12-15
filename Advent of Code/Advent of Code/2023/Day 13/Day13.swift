@@ -53,6 +53,8 @@ func findMirroringPoint(_ pattern: String, withExisting existing: (Int, String)?
                 if lines[i - j] != lines[i + j + 1] {
                     if smudgeReference == nil || alreadySmudged || !hasOneDiff(lines[i - j], lines[i + j + 1]) {
                         continue lineLoop
+                    } else if hasOneDiff(lines[i - j], lines[i + j + 1]) && !alreadySmudged {
+                        alreadySmudged = true
                     }
                 }
             }

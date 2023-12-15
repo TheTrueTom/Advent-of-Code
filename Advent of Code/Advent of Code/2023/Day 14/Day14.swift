@@ -144,7 +144,7 @@ final class Day14: AOCDay {
         
         let todo = (1_000_000_000 - loopStart) % (loopStop - loopStart)
         
-        for i in 1...todo {
+        for _ in 1...todo {
             cycle(&platform)
         }
         
