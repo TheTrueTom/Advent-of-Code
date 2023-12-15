@@ -1,6 +1,6 @@
 //
-//  2023-1.swift
-//  Advent of Code
+//  Day01.swift
+//  AoC
 //
 //  Created by Thomas Brichart on 14/12/2023.
 //

@@ -9,7 +9,7 @@ import Foundation
 
 @main
 struct AdventOfCode {
-    static let dayToRun = 2
+    static let dayToRun = 14
     
     static func main() {
         let day = days[dayToRun - 1]
@@ -18,6 +18,9 @@ struct AdventOfCode {
     }
 
     private static let days: [Runnable.Type] = [
-        Day01.self, Day15.self
+        Day01.self, Day02.self, Day03.self, Day04.self,
+        Day05.self, Day06.self, Day07.self, Day08.self,
+        Day09.self, Day10.self, Day11.self, Day12.self,
+        Day13.self, Day14.self, Day15.self
     ]
 }
