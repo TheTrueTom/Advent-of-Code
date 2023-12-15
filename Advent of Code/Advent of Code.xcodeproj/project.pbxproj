@@ -365,7 +365,7 @@
 		E28E6E252B0655BA00FB6402 = {
 			isa = PBXGroup;
 			children = (
-				E28E6E302B0655BA00FB6402 /* Advent of Code */,
+				E28E6E302B0655BA00FB6402 /* Code */,
 				E28E6E2F2B0655BA00FB6402 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -378,13 +378,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E28E6E302B0655BA00FB6402 /* Advent of Code */ = {
+		E28E6E302B0655BA00FB6402 /* Code */ = {
 			isa = PBXGroup;
 			children = (
-				E28E6E3D2B0656D500FB6402 /* 2023 */,
 				E28E6E382B06567E00FB6402 /* Helpers */,
+				E28E6E3D2B0656D500FB6402 /* 2023 */,
 			);
-			path = "Advent of Code";
+			path = Code;
 			sourceTree = "<group>";
 		};
 		E28E6E382B06567E00FB6402 /* Helpers */ = {
