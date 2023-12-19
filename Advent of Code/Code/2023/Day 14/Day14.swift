@@ -13,32 +13,6 @@ enum Tile: Character {
     case squareRock = "#"
 }
 
-struct Point: Hashable {
-    let x, y: Int
-    
-    init(_ x: Int, _ y: Int) {
-        self.x = x
-        self.y = y
-    }
-    
-    func moved(direction: Direction) -> Point {
-        switch direction {
-        case .n:
-            return Point(self.x, self.y - 1)
-        case .s:
-            return Point(self.x, self.y + 1)
-        case .e:
-            return Point(self.x + 1, self.y)
-        case .w:
-            return Point(self.x - 1, self.y)
-        }
-    }
-}
-
-enum Direction: String {
-    case n, w, s, e
-}
-
 func calculateMass(input: [Point: Tile]) -> Int {
     let max = input.keys.compactMap { $0.y }.max()! + 1
     var sum = 0
