@@ -31,4 +31,13 @@ enum Direction: String, CaseIterable, Hashable {
         case .e: [.n, .s]
         }
     }
+    
+    public var pointValue: Point {
+        switch self {
+        case .n: Point(1, 0)
+        case .s: Point(-1, 0)
+        case .w: Point(0, -1)
+        case .e: Point(0, 1)
+        }
+    }
 }

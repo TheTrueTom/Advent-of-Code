@@ -16,16 +16,18 @@ struct Point: Hashable {
         self.y = y
     }
     
-    public func moved(direction: Direction) -> Point {
+    public func moved(direction: Direction, by amount: Int = 1) -> Point {
         switch direction {
         case .n:
-            return Point(self.x, self.y - 1)
+            return Point(self.x, self.y - amount)
         case .s:
-            return Point(self.x, self.y + 1)
+            return Point(self.x, self.y + amount)
         case .e:
-            return Point(self.x + 1, self.y)
+            return Point(self.x + amount, self.y)
         case .w:
-            return Point(self.x - 1, self.y)
+            return Point(self.x - amount, self.y)
         }
     }
+    
+    
 }

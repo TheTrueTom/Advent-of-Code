@@ -9,7 +9,7 @@ import Foundation
 
 @main
 struct AdventOfCode2023 {
-    static let dayToRun = 17
+    static let dayToRun = 18
     
     static func main() {
         let day = days[dayToRun - 1]
