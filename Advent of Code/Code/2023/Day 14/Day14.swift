@@ -7,13 +7,13 @@
 
 import Foundation
 
-enum Tile: Character {
+private enum Tile: Character {
     case ground = "."
     case roundRock = "O"
     case squareRock = "#"
 }
 
-func calculateMass(input: [Point: Tile]) -> Int {
+private func calculateMass(input: [Point: Tile]) -> Int {
     let max = input.keys.compactMap { $0.y }.max()! + 1
     var sum = 0
     
@@ -26,7 +26,7 @@ func calculateMass(input: [Point: Tile]) -> Int {
     return sum
 }
 
-func tilt(_ platform: inout [Point: Tile], to direction: Direction) {
+private func tilt(_ platform: inout [Point: Tile], to direction: Direction) {
     var yRange = Array(0...platform.keys.compactMap { $0.x }.max()!)
     var xRange = Array(0...platform.keys.compactMap { $0.y }.max()!)
     
@@ -49,7 +49,7 @@ func tilt(_ platform: inout [Point: Tile], to direction: Direction) {
     }
 }
 
-func move(_ point: Point, in platform: inout [Point: Tile], to direction: Direction) {
+private func move(_ point: Point, in platform: inout [Point: Tile], to direction: Direction) {
     var point = point
     
     while true {
@@ -65,7 +65,7 @@ func move(_ point: Point, in platform: inout [Point: Tile], to direction: Direct
     }
 }
 
-func cycle(_ platform: inout [Point: Tile]) {
+private func cycle(_ platform: inout [Point: Tile]) {
     tilt(&platform, to: .n)
     tilt(&platform, to: .w)
     tilt(&platform, to: .s)
@@ -75,7 +75,7 @@ func cycle(_ platform: inout [Point: Tile]) {
 final class Day14: AOCDay {
     private let runTest = false
     
-    var thePlatform = [Point: Tile]()
+    private var thePlatform = [Point: Tile]()
     
     init(input: String, testInput: String) {
         let input = runTest ? testInput : input

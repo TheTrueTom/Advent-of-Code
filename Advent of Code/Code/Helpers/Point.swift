@@ -28,6 +28,4 @@ struct Point: Hashable {
             return Point(self.x - amount, self.y)
         }
     }
-    
-    
 }
