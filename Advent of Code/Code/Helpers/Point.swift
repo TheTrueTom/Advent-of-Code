@@ -29,3 +29,14 @@ struct Point: Hashable {
         }
     }
 }
+
+struct D3Point: Hashable {
+    public let x, y, z: Int
+    public static let zero = D3Point(0, 0, 0)
+    
+    init(_ x: Int, _ y: Int, _ z: Int) {
+        self.x = x
+        self.y = y
+        self.z = z
+    }
+}
