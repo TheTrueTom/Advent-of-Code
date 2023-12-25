@@ -50,7 +50,7 @@ final class Day21: AOCDay {
     func part1() -> Int {
         var previousPositions: Set<Point> = [startingPosition]
         
-        for i in 1...64 {
+        for _ in 1...64 {
             var positions: Set<Point> = []
             
             for pos in previousPositions {
