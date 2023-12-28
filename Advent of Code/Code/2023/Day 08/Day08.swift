@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Node {
+private struct Node {
     let origin: String
     let destination: (l: String, r: String)
 }
@@ -26,7 +26,7 @@ final class Day08: AOCDay {
     private let blocks: [String.SubSequence]
     
     let pattern: String.SubSequence
-    let map: [Node]
+    private let map: [Node]
     
     init(input: String, testInput: String) {
         let input = runTest ? testInput : input
